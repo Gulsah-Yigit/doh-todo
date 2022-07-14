@@ -1,0 +1,51 @@
+.App {
+  width: 400px;
+  margin: 0 auto;
+  font-family: sans-serif;
+  text-align: center;
+  margin-top: 100px;
+}
+
+.completed {
+  text-decoration: line-through;
+}
+
+.item-position {
+  width: 412px;
+  margin-left: -33px;
+}
+
+.container {
+  border-radius: 17px;
+  background: rgb(255, 255, 0);
+  background: radial-gradient(
+    circle,
+    rgba(255, 255, 0, 1) 0%,
+    rgba(252, 252, 129, 1) 91%
+  );
+}
+
+.clear-btn {
+  border-radius: 15px;
+  margin-bottom: 15px;
+}
+
+body {
+  background-image: url("../images/blue.jpg");
+
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.title {
+  color: rgb(111, 111, 243);
+  font-family: cursive;
+}
+
+.label {
+  font-family: cursive;
+  color: rgb(54, 52, 52);
+  margin-bottom: 10px;
+}
